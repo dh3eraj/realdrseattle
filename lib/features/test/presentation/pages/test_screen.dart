@@ -54,7 +54,7 @@ class _TestScreenState extends State<TestScreen> {
                 return Center(child: CircularProgressIndicator.adaptive());
               },
               orElse: () {
-                return Container();
+                return Center(child: Text('Clicl + to call the API'));
               },
             ),
           ),
